@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: gac-downloader
-    runtime: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
-    healthCheckPath: /healthz
